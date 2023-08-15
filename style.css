@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(253, 253, 253, 0.667);
+    font-family: "permanent Marker" , cursive;
+}
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 3px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.gameContainer{
+    position: relative;
+    margin-top: 13%;
+    text-align: center;
+}
+
+.cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+.button {
+    font-family: "permanent Marker" , cursive;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    background: rgba(77, 0, 201, 0.667);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 1%;
+}
+
+.button:hover{
+    font-size: larger;
+}
+
+.button:active {
+    transform: scale(0.96);
+}
+
+.statement{
+    margin-left: 1.0%;
+}
